@@ -11,18 +11,21 @@ function App() {
 
   
 
-useEffect(()=>{
+  useEffect(() => {
+axios('http://red666.somee.com/WeatherForecast', {
+    method: 'GET',
+    mode: 'no-cors',
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json',
+    },
+    withCredentials: true,
+    credentials: 'same-origin',
+  }).then(response => {
+    console.log(response.data);
+  })
 
-
-
-axios.get("http://red666.somee.com/WeatherForecast")
-.then(function (response){
-
-  console.log(response.data)
-})
-
-},[])
-
+}, []);
 
   return (
   <>
