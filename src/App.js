@@ -2,24 +2,15 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
 
-//  axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true })
+
 function App() {
 
 
 
   useEffect(() => {
 
-    const config = {
-      headers:{
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, OPTION",
-        "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, X-Requested-With"
-      },
-      crossdomain: true
-    };
 
-
-    axios.get("http://red666.somee.com/WeatherForecast",config)
+axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true })
     .then((result)=>{
       console.log("resultado =======>>>>     ",result);
     })
