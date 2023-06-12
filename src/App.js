@@ -4,29 +4,31 @@ import './App.css';
 
 // https://github.com/CHaNGo666/conx1.git
 
+// http://red666.somee.com/WeatherForecast
 
+// https://localhost:7006/WeatherForecast
 
 function App() {
 
 
 
-
   useEffect(() => {
 
-  const headers = {
-    "Content-Type": "application/json",
-   // Authorization: apiKey,
-  };
-  const url = "http://red666.somee.com/WeatherForecast";
 
-  axios.get(url, { headers }).then(response => {
-    console.log(response.data);
-  })
-  .catch(function(error) {
-    console.log("ERROR > ", error);
-  });
+    axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true }).then((result)=>{
+      console.log("result",result);
+    }).catch((error)=>{
+      console.log("Error",error);
+    });
 
-}, []);
+
+ //   axios.get('http://red666.somee.com/WeatherForecast').then(response => {
+ //     console.log(response.data);
+  //  });
+
+
+
+  }, []);
 
   return (
   <>
