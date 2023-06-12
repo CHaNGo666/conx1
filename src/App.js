@@ -2,11 +2,6 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
 
-// https://github.com/CHaNGo666/conx1.git
-
-// http://red666.somee.com/WeatherForecast
-
-// https://localhost:7006/WeatherForecast
 
 function App() {
 
@@ -26,9 +21,9 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion</h1>
+  <h1>Prueba conexion Dom 11-6 a</h1>
   
-  
+  <div> Mas texto</div>
   </>
   );
 }
