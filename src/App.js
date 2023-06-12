@@ -23,7 +23,7 @@ function App() {
   <>
   <h1>Prueba conexion Dom 11-6 a</h1>
   
-  
+  <div> Mas texto</div>
   </>
   );
 }
