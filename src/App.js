@@ -22,12 +22,6 @@ function App() {
     });
 
 
- //   axios.get('http://red666.somee.com/WeatherForecast').then(response => {
- //     console.log(response.data);
-  //  });
-
-
-
   }, []);
 
   return (
