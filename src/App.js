@@ -14,7 +14,8 @@ function App() {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, OPTION",
         "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, X-Requested-With"
-      }
+      },
+      crossdomain: true
     };
 
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion Dom 11-6 f</h1>
+  <h1>Prueba conexion Dom 11-6 g</h1>
   
   <div> Mas texto</div>
   </>
