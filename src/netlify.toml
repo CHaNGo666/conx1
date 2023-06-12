@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/<path-to-access-cors-url>"
-  to = "<cross-origin-url>"
+  from = "/pathx"
+  to = "http://red666.somee.com/WeatherForecast"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
