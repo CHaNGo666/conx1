@@ -21,7 +21,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion</h1>
+  <h1>Prueba conexion Dom 11-6 a</h1>
   
   
   </>
