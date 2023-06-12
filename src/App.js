@@ -11,9 +11,9 @@ function App() {
 
 
     axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true }).then((result)=>{
-      console.log("result",result);
+      console.log("resultado =======>>>>     ",result);
     }).catch((error)=>{
-      console.log("Error",error);
+      console.log("Error ===========>>>     ",error);
     });
 
 
@@ -21,7 +21,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion Dom 11-6 d</h1>
+  <h1>Prueba conexion Dom 11-6 e</h1>
   
   <div> Mas texto</div>
   </>
