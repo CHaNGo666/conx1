@@ -2,11 +2,6 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
 
-// https://github.com/CHaNGo666/conx1.git
-
-// http://red666.somee.com/WeatherForecast
-
-// https://localhost:7006/WeatherForecast
 
 function App() {
 
@@ -20,12 +15,6 @@ function App() {
     }).catch((error)=>{
       console.log("Error",error);
     });
-
-
- //   axios.get('http://red666.somee.com/WeatherForecast').then(response => {
- //     console.log(response.data);
-  //  });
-
 
 
   }, []);
