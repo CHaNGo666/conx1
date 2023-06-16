@@ -23,7 +23,7 @@ axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true })
 
   return (
   <>
-  <h1>Prueba conexion V 16-6 C</h1>
+  <h1>Prueba conexion V 16-6 D</h1>
   
   <div> Mas texto</div>
   </>
