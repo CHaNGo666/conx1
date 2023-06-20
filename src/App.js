@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
 
 
-axios.get("/api/WeatherForecast")
+axios.get(api)
     .then((result)=>{
       console.log("resultado =======>>>>     ",result);
     })
@@ -23,7 +23,7 @@ axios.get("/api/WeatherForecast")
 
   return (
   <>
-  <h1>Prueba conexion L 19-6 A</h1>
+  <h1>Prueba conexion L 19-6 B</h1>
   
   <div> Mas texto</div>
   </>
