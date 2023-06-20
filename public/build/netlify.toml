@@ -1,5 +1,9 @@
-[[headers]]
+[build]
+base = "website"
+publish = "public"
 
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+[[headers]]
+for = "/*"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
