@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { startTransition, useEffect } from 'react';
+import { useEffect } from 'react';
 import './App.css';
 
 var _urlOk = "http://red666.somee.com/WeatherForecast";
@@ -31,7 +31,7 @@ axios.get(_urlOk)
 
   return (
   <>
-  <h1>Prueba conexion M 20-6 C</h1>
+  <h1>Prueba conexion M 20-6 D</h1>
   
   <div> Mas texto</div>
   </>
