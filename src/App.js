@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
 
 
-axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true })
+axios.get("/api/WeatherForecast")
     .then((result)=>{
       console.log("resultado =======>>>>     ",result);
     })
@@ -23,7 +23,7 @@ axios.get("http://red666.somee.com/WeatherForecast",{ crossdomain: true })
 
   return (
   <>
-  <h1>Prueba conexion V 16-6 D</h1>
+  <h1>Prueba conexion L 19-6 A</h1>
   
   <div> Mas texto</div>
   </>
