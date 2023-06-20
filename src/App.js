@@ -1,6 +1,10 @@
 import axios from 'axios';
-import { useEffect } from 'react';
+import { startTransition, useEffect } from 'react';
 import './App.css';
+
+var _urlOk = "http://red666.somee.com/WeatherForecast";
+
+
 
 
 function App() {
@@ -10,13 +14,17 @@ function App() {
   useEffect(() => {
 
 
-axios.get(api)
-    .then((result)=>{
-      console.log("resultado =======>>>>     ",result);
-    })
-    .catch((error)=>{
-      console.log("Error ===========>>>     ",error);
-    });
+
+      
+
+axios.get(_urlOk)
+.then((result)=>{
+  console.log("resultado =======>>>>     ",result);
+})
+.catch((error)=>{
+ console.log("Error ===========>>>     ",error);
+});
+
 
 
   }, []);
