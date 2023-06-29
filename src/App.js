@@ -17,16 +17,24 @@ function App() {
 
       
 
-//var _urlOk = "http://red666.somee.com/WeatherForecast";
+    const axios = require('axios');
+
+    // Hacer una petición para un usuario con ID especifico
+    axios.get('http://red666.somee.com/WeatherForecast')
+      .then(function (response) {
+        // manejar respuesta exitosa
+        console.log("resultado =======>>>>     ",response);
+      })
+      .catch(function (error) {
+        // manejar error
+        console.log("resultado =======>>>>     ",error);
+      })
+      .finally(function () {
+        // siempre sera executado"resultado =======>>>>     ",
+        console.log("Finally")
+      });
 
 
-axios.get("http://red666.somee.com/WeatherForecast")
-.then((result)=>{
-  console.log("resultado =======>>>>     ",result);
-})
-.catch((error)=>{
- console.log("Error ===========>>>     ",error);
-});
 
 
 
@@ -34,7 +42,7 @@ axios.get("http://red666.somee.com/WeatherForecast")
 
   return (
   <>
-  <h1>Prueba conexion J 29-6 A</h1>
+  <h1>Prueba conexion J 29-6 C</h1>
   
   <div> Mas texto</div>
   </>
