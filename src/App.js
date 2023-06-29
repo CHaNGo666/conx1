@@ -17,7 +17,7 @@ function App() {
 
       
 
-    const axios = require('axios');
+
 
     // Hacer una petición para un usuario con ID especifico
     axios.get('http://red666.somee.com/WeatherForecast')
@@ -42,7 +42,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion J 29-6 C</h1>
+  <h1>Prueba conexion J 29-6 D</h1>
   
   <div> Mas texto</div>
   </>
