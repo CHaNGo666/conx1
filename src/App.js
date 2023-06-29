@@ -31,7 +31,7 @@ axios.get(_urlOk)
 
   return (
   <>
-  <h1>Prueba conexion M 20-6 J</h1>
+  <h1>Prueba conexion J 29-6 A</h1>
   
   <div> Mas texto</div>
   </>
