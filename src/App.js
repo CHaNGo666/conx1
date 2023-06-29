@@ -17,7 +17,10 @@ function App() {
 
       
 
-axios.get(_urlOk)
+//var _urlOk = "http://red666.somee.com/WeatherForecast";
+
+
+axios.get("http://red666.somee.com/WeatherForecast")
 .then((result)=>{
   console.log("resultado =======>>>>     ",result);
 })
