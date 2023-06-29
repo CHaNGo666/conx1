@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@svgr/plugin-svgo": "^8.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
     "babel-preset-react-app": "^10.0.1"
   }
 }
