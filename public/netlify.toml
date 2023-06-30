@@ -1,6 +1,6 @@
 [build]
 base = "website"
-publish = "public"
+publish = "build/"
 
 [[headers]]
 for = "/*"
