@@ -15,7 +15,7 @@ function App() {
 
 
 
-      console.log(process.env.PUBLIC_URL)
+      console.log("PUBLIC ----", process.env.PUBLIC_URL)
 
 
 
