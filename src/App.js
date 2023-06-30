@@ -42,7 +42,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion J 29-6 N</h1>
+  <h1>Prueba conexion J 29-6 o</h1>
   
   <div> Mas texto</div>
   </>
