@@ -1,7 +1,7 @@
 // import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
-import {getAllProductos} from "./Service/appService"
+import {getByTiempo} from "./Service/appService"
 //var _urlOk = "http://red666.somee.com/WeatherForecast";
 
 
