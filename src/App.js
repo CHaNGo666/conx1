@@ -15,7 +15,7 @@ function App() {
 
       const request = async ()=>{
         try{
-            const response = await getByTiempo()
+            const response = await getByTiempo("")
             console.log('response ',response)
 
         }catch(e){
