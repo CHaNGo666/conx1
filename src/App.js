@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
 import {getAllProductos} from "./Service/appService"
