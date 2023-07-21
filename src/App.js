@@ -13,23 +13,18 @@ function App() {
 
   useEffect(() => {
 
-
-
-      console.log("PUBLIC ----", process.env.PUBLIC_URL)
       const request = async ()=>{
-                
         try{
-         
-            const response = await getAllProductos("Moto")
+            const response = await getByTiempo()
             console.log('response',response)
 
         }catch(e){
             console.log(e)
            
         }
-        
     }
     request()
+
 
 
 

@@ -6,3 +6,7 @@ export async function getAllProductos(buscar){
 export async function getByIdProductos(id){
     return axios.get("/items/"+id) 
 }
+
+export async function getByTiempo(){
+    return axios.get("/WeatherForecast") 
+}
