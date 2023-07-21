@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css';
-
+import {getAllProductos} from "./Service/appService"
 //var _urlOk = "http://red666.somee.com/WeatherForecast";
 
 
@@ -16,24 +16,20 @@ function App() {
 
 
       console.log("PUBLIC ----", process.env.PUBLIC_URL)
+      const request = async ()=>{
+                
+        try{
+         
+            const response = await getAllProductos("Moto")
+            console.log('response',response)
 
-
-
-    // Hacer una petición para un usuario con ID especifico
-    axios.get('http://red666.somee.com/WeatherForecast')
-      .then(function (response) {
-        // manejar respuesta exitosa
-        console.log("resultado =======>>>>     ",response);
-      })
-      .catch(function (error) {
-        // manejar error
-        console.log("resultado =======>>>>     ",error);
-      })
-      .finally(function () {
-        // siempre sera executado"resultado =======>>>>     ",
-        console.log("Finally")
-      });
-
+        }catch(e){
+            console.log(e)
+           
+        }
+        
+    }
+    request()
 
 
 
@@ -42,7 +38,7 @@ function App() {
 
   return (
   <>
-  <h1>Prueba conexion J 29-6 B</h1>
+  <h1>Prueba conexion V 21-7 A</h1>
   
   <div> Mas texto</div>
   </>
