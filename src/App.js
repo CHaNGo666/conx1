@@ -16,7 +16,7 @@ function App() {
       const request = async ()=>{
         try{
             const response = await getByTiempo()
-            console.log('response',response)
+            console.log('response ',response)
 
         }catch(e){
             console.log(e)
